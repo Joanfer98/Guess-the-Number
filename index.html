@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Guess the number</title>
+  </head>
+  <body>
+    <main class="main flexAlignCenter">
+      <form class="data flexAlignCenter borderRadius">
+        <div id="help" class="helpStyle helpMessage"></div>
+        <button id="helpButton" class="helpButton centerIdea">
+          <img
+            id="img"
+            class="shake"
+            src="./img/light-bulb.png"
+            alt=""
+          />
+        </button>
+        <header class="header borderRadius">
+          <h1>Guess the number</h1>
+        </header>
+
+        <div class="inputNumber">
+          <label for="number">Type the number ( 0 - 10)</label>
+          <input type="number" id="input" class="borderRadius" placeholder="Type de number" />
+        </div>
+        <div class="buttonsAction">
+          <button id="button" class="  borderRadius ">Send</button>
+          <button id="button2" class="  borderRadius ">Change Number</button>
+        </div>
+
+        <div class="NumberToGuess" id="numberInsert"></div>
+      </form>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
