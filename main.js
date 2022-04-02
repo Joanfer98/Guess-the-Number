@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   const clueImage = document.getElementById("img");
   const helpButton = document.getElementById("helpButton");
   const randomNumber = Math.floor(Math.random() * 10 - 1) + 1;
-  console.log(randomNumber);
+  // console.log(randomNumber);
 
   const help = document.getElementById("help");
   const inputNumber = document.getElementById("numberInsert");
@@ -22,9 +22,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
       inputNumber.appendChild(value2);
     }
   }
+
   sendButton.addEventListener("click", (e) => {
     e.preventDefault();
-    sendData()
+    sendData();
+    input.value ='';
     
   });
   clueImage.addEventListener("click", (e) => {

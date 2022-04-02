@@ -5,16 +5,13 @@
   margin: 0;
   font-size: 16px;
 }
-title{
-
-}
 
 .main {
   position: relative;
   height: 100vh;
   background-color: #6b9b8531;
   background-color: #1f1f1f;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='126' height='84' viewBox='0 0 126 84'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23838186' fill-opacity='0.52'%3E%3Cpath d='M126 83v1H0v-2h40V42H0v-2h40V0h2v40h40V0h2v40h40V0h2v83zm-2-1V42H84v40h40zM82 42H42v40h40V42zm-50-6a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm96 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm-42 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm30-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM20 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 24a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24-42a4 4 0 1 1 0-8 4 4 0 0 1 0 8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") ; 
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='126' height='84' viewBox='0 0 126 84'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23838186' fill-opacity='0.52'%3E%3Cpath d='M126 83v1H0v-2h40V42H0v-2h40V0h2v40h40V0h2v40h40V0h2v83zm-2-1V42H84v40h40zM82 42H42v40h40V42zm-50-6a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm96 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm-42 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm30-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM20 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 24a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24-42a4 4 0 1 1 0-8 4 4 0 0 1 0 8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 .header {
   top: 1em;
@@ -22,11 +19,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   text-align: center;
   border: thick solid #fff;
 }
-.header h1{
+.header h1 {
   font-size: 1.8em;
-  padding: .3em;
+  padding: 0.3em;
 }
-label{
+label {
   padding: 1em;
   font-size: 1.3em;
   border: thin solid #fff;
@@ -49,9 +46,9 @@ label{
   background: transparent;
   border: none;
 }
-.transitionIdea{
+.transitionIdea {
   transition: 1.5s;
-  animation: transition 1.5s cubic-bezier(0.36, 0.07, 0.19, 0)
+  animation: transition 1.5s cubic-bezier(0.36, 0.07, 0.19, 0);
 }
 .data {
   margin: 0 2.5em;
@@ -62,42 +59,40 @@ label{
   height: 31.25em;
   background-color: #3d3d3d;
 }
-.helpMessage{
+.helpMessage {
   position: absolute;
   align-self: flex-start;
   text-align: center;
-  
+
   width: 19.75em;
   height: 4.3em;
-  
-  left:3.1em;
+
+  left: 3.1em;
   bottom: 19.75em;
   padding: 1.18em 0;
   border-radius: 1.5em;
   background-color: rgb(255, 255, 255);
   color: #4a4a4a;
-
 }
-.helpStyle{
-  background:none;
+.helpStyle {
+  background: none;
 }
-.centerIdea{
+.centerIdea {
   align-self: center;
-
 }
 
 .data input {
-  margin: .6em 0;
-  padding: .6em;
+  margin: 0.6em 0;
+  padding: 0.6em;
 }
 .data button.borderRadius {
-  padding: .6em 3.1em;
+  padding: 0.6em 3.1em;
   margin-bottom: 0.6em;
   background-color: #7d7d7d;
   color: #fff;
   font-weight: bold;
   cursor: pointer;
-  transition: .5s;  
+  transition: 0.5s;
 }
 .NumberToGuess {
   position: absolute;
@@ -109,7 +104,7 @@ label{
 }
 
 .data button.borderRadius:hover,
-label:hover{
+label:hover {
   background: #fff;
   color: #1f1f1f;
 }
@@ -136,78 +131,22 @@ label:hover{
   cursor: pointer;
   animation: shake 1.5s cubic-bezier(0.36, 0.07, 0.19, 0) infinite;
 }
+
+
 @media screen and (max-width: 700px) {
-  
-  .main {
-    font-size: .5em;
-      width: 100vw;
-      height: 100vh;
-  }
-  .data{
+ 
+  .data {
     font-size: 1rem;
     width: 20em;
     height: 30em;
   }
-  .helpMessage{
+  .helpMessage {
     left: 1em;
     width: 12em;
-    padding: .6em;
+    padding: 0.6em;
     height: 2.5em;
   }
-  label{
-    padding: .3em;
+  label {
+    padding: 0.3em;
   }
-  .inputNumber {
-    margin-top: 2em;
-  }
-  .inputNumber input{
-    margin: 1em .6em;
-  }
-}
-@media screen and (min-width: 600px) and (orientation: landscape) {
-  .header{
-    font-size: .8em;
-    padding: .1em;
-  }
-  .main {
-    font-size: .5em;
-      width: 100vw;
-      height: 100vh;
-  }
-  .data{
-    font-size: 1rem;
-    width: 30em;
-    height: 20em;
-  }
-  .helpButton{
-    top: 2em;
-    font-size: 1em;
-  }
- 
-  label{
-    font-size:1em;
-  }
-  .buttonsAction button.borderRadius{
-    padding: .6em .9em;
-    margin-bottom: .3em;
-  }
-  .NumberToGuess{
-   z-index: 1
-  }
-  .data input{
-    margin: .5em 0;
-  padding: .3em;
-  }
-  .helpMessage{
-    position: absolute;
-    top: 6em;
-  }
-  .inputNumber{
-    margin: 1em .6em;
-  }
-  .centerIdea{
-    top: .5em;
-  
-  }
-  
 }
